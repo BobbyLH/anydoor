@@ -1,0 +1,14 @@
+# 匹配模式前 加 / 代表项目根目录
+# 匹配模式最后加 / 代表四目录
+# 匹配模式前加 ! 代表取反
+# *代表任意字符
+# ?匹配任意一个字符
+# ** 匹配多级目录 node_modules/**/index.js
+
+*.log
+ npm-debug.log*
+ node_modules/
+ *.swp
+ .idea/
+.DS_Store
+dist/ 
