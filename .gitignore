@@ -6,9 +6,9 @@
 # ** 匹配多级目录 node_modules/**/index.js
 
 *.log
- npm-debug.log*
- node_modules/
- *.swp
- .idea/
+npm-debug.log*
+node_modules/
+*.swp
+.idea/
 .DS_Store
 dist/ 
